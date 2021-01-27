@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./default.component.scss']
 })
 export class DefaultComponent implements OnInit {
-
+  sideBarToggle: boolean = true;
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  sideBarToggleEvent($event:any) {
+    this.sideBarToggle = !this.sideBarToggle
   }
 
 }

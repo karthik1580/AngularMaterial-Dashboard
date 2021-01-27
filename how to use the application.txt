@@ -7,6 +7,8 @@ https://awesomeopensource.com/projects/angular-material
 https://material.angular.io/components/sidenav/api
 https://material.angular.io/components/categories
 https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/#mat-icon-list-category-hardware
+https://www.highcharts.com/demo
+https://github.com/highcharts/highcharts-angular
 ----------------------------------------------------------------------------------------------------
 
 1, ng new dashboard

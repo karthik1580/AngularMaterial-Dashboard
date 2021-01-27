@@ -1,15 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { AppMaterialModule } from '../app-material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { AppMaterialModule } from '../app-material.module';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { AreaComponent } from './widgets/area/area.component';
+import { HighchartsChartModule } from 'highcharts-angular';
+
 
 const includeComponents = [
   HeaderComponent,
   FooterComponent,
-  SidebarComponent
+  SidebarComponent,
+  AreaComponent
 ]
 
 @NgModule({
@@ -19,7 +25,9 @@ const includeComponents = [
   imports: [
     CommonModule,
     AppMaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    RouterModule,
+    HighchartsChartModule
 
   ],
   exports: [

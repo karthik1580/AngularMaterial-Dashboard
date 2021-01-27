@@ -1,8 +1,7 @@
-<app-header></app-header>
-
+<app-header (toggleSlideBarDecorator)="sideBarToggleEvent($event)"></app-header>
 
 <mat-drawer-container>
-    <mat-drawer mode="side" opened>
+    <mat-drawer mode="side" [opened]="sideBarToggle">
         <app-sidebar></app-sidebar>
     </mat-drawer>
     <mat-drawer-content>

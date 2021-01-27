@@ -2,16 +2,23 @@ mat-nav-list{
     margin: 0;
     padding: 0;
 }
-.profileCard{
-    text-align: center;
-    h2, h3{
-        margin: 0;
-        padding: 0;
+:host{
+    .mat-icon{
+        vertical-align: middle;
+        margin-right: .2em;
         border: 1px solid red;
     }
-    img{
-        width: 12em;
-        height: 12em;
-        border-radius: 100%;
+    .profileCard{
+        text-align: center;
+        h2, h3{
+            margin: 0;
+            padding: 0;
+            border: 1px solid red;
+        }
+        img{
+            width: 12em;
+            height: 12em;
+            border-radius: 100%;
+        }
     }
 }
