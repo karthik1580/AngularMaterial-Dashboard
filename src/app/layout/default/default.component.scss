@@ -1,0 +1,24 @@
+$red : red;
+$green : green;
+$blue : blue;
+$one-px-solid: 1px solid;
+$padding15: 15px;
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+mat-drawer-container{
+    height: 100%; 
+    background-color: transparent;   
+}
+
+mat-drawer{
+    width: 350px;
+    //border: $one-px-solid $blue;
+}
+mat-drawer-content{
+    border: $one-px-solid $red;
+    padding: $padding15;
+}

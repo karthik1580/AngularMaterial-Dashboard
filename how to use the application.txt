@@ -1,0 +1,22 @@
+
+https://www.youtube.com/watch?v=FP7Hs8lTy1k&feature=youtu.be
+https://www.youtube.com/watch?v=E-GA9GKJWuE&list=PLVHgQku8Z937EBoC8ne2b1jfrfd0XRBI4
+https://medium.com/@ravinagendra_t/angular-create-module-imports-for-material-c0767f4143a7
+https://awesomeopensource.com/project/bloodymind/angular-material-dashboard
+https://awesomeopensource.com/projects/angular-material
+https://material.angular.io/components/sidenav/api
+https://material.angular.io/components/categories
+https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/#mat-icon-list-category-hardware
+----------------------------------------------------------------------------------------------------
+
+1, ng new dashboard
+2, Add the project in .code
+3, Install angular material [ng add @angular/material]
+4, install highchart packages[npm i highcharts-angular --save] [npm install highcharts --save]
+5, install Flex Layout package [npm i @angular/flex-layout @angular/cdk --save]
+6, create material model and include in app-module [ng g m app-material]
+----------------------------------------------------------------------------------------------------
+
+7, Create the first layout [ng g c layout/default, ng g m layout/default]
+8, Create a component for the Dashboard page
+9, Use the first layout as a Parent Route Component in app-routing and the Dashboard page as child component
