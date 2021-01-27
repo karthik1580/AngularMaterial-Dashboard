@@ -15,6 +15,11 @@ export class HeaderComponent implements OnInit {
   
   toggleSlideBarEvent() {
     this.toggleSlideBarDecorator.emit();
+    setTimeout(() => {
+      window.dispatchEvent(
+        new Event('resize')
+      )
+    }, 100);
   }
 
 }
