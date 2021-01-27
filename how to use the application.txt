@@ -9,6 +9,7 @@ https://material.angular.io/components/categories
 https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/#mat-icon-list-category-hardware
 https://www.highcharts.com/demo
 https://github.com/highcharts/highcharts-angular
+https://www.tektutorialshub.com/angular/routerlinkactive-router-outlet-styling/
 ----------------------------------------------------------------------------------------------------
 
 1, ng new dashboard
