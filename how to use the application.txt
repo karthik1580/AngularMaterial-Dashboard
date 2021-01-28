@@ -10,6 +10,7 @@ https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/
 https://www.highcharts.com/demo
 https://github.com/highcharts/highcharts-angular
 https://www.tektutorialshub.com/angular/routerlinkactive-router-outlet-styling/
+
 ----------------------------------------------------------------------------------------------------
 
 1, ng new dashboard
@@ -18,6 +19,7 @@ https://www.tektutorialshub.com/angular/routerlinkactive-router-outlet-styling/
 4, install highchart packages[npm i highcharts-angular --save] [npm install highcharts --save]
 5, install Flex Layout package [npm i @angular/flex-layout @angular/cdk --save]
 6, create material model and include in app-module [ng g m app-material]
+
 ----------------------------------------------------------------------------------------------------
 
 7, Create the first layout [ng g c layout/default, ng g m layout/default]
