@@ -25,3 +25,5 @@ https://www.tektutorialshub.com/angular/routerlinkactive-router-outlet-styling/
 7, Create the first layout [ng g c layout/default, ng g m layout/default]
 8, Create a component for the Dashboard page
 9, Use the first layout as a Parent Route Component in app-routing and the Dashboard page as child component
+
+Above link 
